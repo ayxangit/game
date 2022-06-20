@@ -78,9 +78,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  position: relative;
-  top: 200px;
-  left: 600px;
 }
 
 a .fa-angle-right {

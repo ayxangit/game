@@ -6,49 +6,49 @@ let color_5 = document.querySelector('#color_5');
 let color_6 = document.querySelector('#color_6');
 
 color_1.addEventListener('click', ()=>{
-    color_1 = prompt('sevgilin ve ya istediyin biri  var?');
+    color_1 = prompt('sevgilin   var? cavab secenekleri: var ve yox yalniz bu iki cavab kecerlidir');
     if(color_1=='var'){
-        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler')
+        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler xais olunur novbeti merheleye kecid elemiyin telif yeye bilersiz')
     }else{
         alert('Ela son tur qaldi turun adi Etiraf turu')
     }
 })
 color_2.addEventListener('click', ()=>{
-    color_2 = prompt('love or career?');
-    if(color_2=='career'){
-        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler')
+    color_2 = prompt('sevgilin   var? cavab secenekleri: var ve yox yalniz bu iki cavab kecerlidir');
+    if(color_2=='var'){
+        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler xais olunur novbeti merheleye kecid elemiyin telif yeye bilersiz')
     }else{
         alert('Ela son tur qaldi turun adi Etiraf turu')
     }
 })
 color_3.addEventListener('click', ()=>{
-    color_3 = prompt('Qarsi terefde seni celb eden sey nedi? Zeka yoxsa gorunus?');
-    if(color_3=='gorunus'){
-        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler')
+    color_3 = prompt('sevgilin   var? cavab secenekleri: var ve yox yalniz bu iki cavab kecerlidir');
+    if(color_3=='var'){
+        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler xais olunur novbeti merheleye kecid elemiyin telif yeye bilersiz')
     }else{
         alert('Ela son tur qaldi turun adi Etiraf turu')
     }
 })
 color_4.addEventListener('click', ()=>{
-    color_4 = prompt('sevgilin ve ya istediyin biri  var?');
-    if(color_4=='gorunus'){
-        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler')
+    color_4 = prompt('sevgilin   var? cavab secenekleri: var ve yox yalniz bu iki cavab kecerlidir');
+    if(color_4=='var'){
+        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler xais olunur novbeti merheleye kecid elemiyin telif yeye bilersiz')
     }else{
         alert('Ela son tur qaldi turun adi Etiraf turu')
     }
 })
 color_5.addEventListener('click', ()=>{
-    color_5 = prompt('sevgilin ve ya istediyin biri  var?');
+    color_5 = prompt('sevgilin   var? cavab secenekleri: var ve yox yalniz bu iki cavab kecerlidir');
     if(color_5=='var'){
-        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler')
+        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler xais olunur novbeti merheleye kecid elemiyin telif yeye bilersiz')
     }else{
         alert('Ela son tur qaldi turun adi Etiraf turu')
     }
 })
 color_6.addEventListener('click', ()=>{
-    color_6 = prompt('sevgilin ve ya istediyin biri  var?');
+    color_6 = prompt('sevgilin   var? cavab secenekleri: var ve yox yalniz bu iki cavab kecerlidir');
     if(color_6=='var'){
-        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler')
+        alert('Oyun bitdi bura qeder geldiyine gore tesekkurler xais olunur novbeti merheleye kecid elemiyin telif yeye bilersiz')
     }else{
         alert('Ela son tur qaldi turun adi Etiraf turu')
     }

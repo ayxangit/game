@@ -105,4 +105,98 @@ div .img_box img {
 .button_box #btn6 {
   background-color: violet;
 }
+
+@media (max-width: 500px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    background-color: blue;
+  }
+  h1 {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 440px;
+  }
+  div {
+    width: 250px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    top: 230px;
+  }
+  div .img_box {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+  div .img_box img {
+    width: 100%;
+  }
+  .button_box {
+    width: 450px;
+    height: 650px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 380px;
+  }
+  .button_box .btn {
+    width: 350px;
+    height: 100px;
+    -webkit-transition: 2s ease-in-out all;
+    transition: 2s ease-in-out all;
+    cursor: pointer;
+  }
+  .button_box .btn:hover span {
+    display: block;
+  }
+  .button_box .btn span {
+    font-size: 20px;
+    display: none;
+  }
+  .button_box #btn1 {
+    background-color: red;
+  }
+  .button_box #btn2 {
+    background-color: yellow;
+  }
+  .button_box #btn3 {
+    background-color: green;
+  }
+  .button_box #btn4 {
+    background-color: orange;
+  }
+  .button_box #btn5 {
+    background-color: white;
+  }
+  .button_box #btn6 {
+    background-color: violet;
+  }
+}
 /*# sourceMappingURL=final.css.map */
